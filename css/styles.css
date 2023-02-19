@@ -16,6 +16,7 @@ body {
   letter-spacing: 3%;
   font-size: 14px;
   line-height: 1.14;
+  width: 1600px;
 }
 
 .container {
@@ -27,7 +28,6 @@ body {
 .navigation,
 .list-nostyle {
   display: flex;
-  flex-wrap: wrap;
 }
 
 h1,
@@ -89,7 +89,6 @@ img {
 
 .navigation {
   padding: 32px 0;
-  margin-right: 376px;
 }
 
 .nav-menu {
@@ -101,6 +100,7 @@ img {
 
 .contact-up {
   font-weight: 500;
+  font-style: normal;
   letter-spacing: 0.02em;
   color: var(--gray-text-color);
   margin-left: 40px;
@@ -134,6 +134,7 @@ img {
 
 .address {
   font-weight: 400;
+  font-style: normal;
   color: var(--white-color);
   margin-bottom: 12px;
 }
@@ -141,6 +142,7 @@ img {
 .footer-contact {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .footer-address {
@@ -307,13 +309,10 @@ img {
 }
 
 .our-projects li {
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
   margin-bottom: 30px;
   margin-right: 30px;
   width: 370px;
-}
-.our-projects li:nth-child(3n) {
-  margin-right: 0;
 }
 
 .our-projects {
